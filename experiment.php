@@ -1,4 +1,12 @@
-<?php echo 2 + 2 ?>
+<!-- PHP Practice 
+This file is just for practicing PHP. 
+In a real WordPress website this file would not be here.
+-->
 
-<h1>This page is all about Brad</h1>
-<h2>All about Brad</h2>
+<?php echo 2 + 2; 
+    $myname = 'Bri';
+?>
+
+<h1>This page is all about <?php echo $myname ?></h1>
+<?php echo 5 * 5 ?>
+<h2>All about <?php echo $myname ?></h2>
