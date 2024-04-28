@@ -58,3 +58,10 @@ greet('Jane', 'green');
 <p>Hi, my name is <?php echo $names[0]; ?></p>
 
 
+<!-- If statements -->
+
+<?php
+    if (2 + 2 === 4) {
+        echo "The sky is blue";
+    }
+?>
