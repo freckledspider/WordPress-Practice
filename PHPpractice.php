@@ -65,3 +65,5 @@ greet('Jane', 'green');
         echo "The sky is blue";
     }
 ?>
+
+<!--  -->
