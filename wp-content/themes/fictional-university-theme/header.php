@@ -1,9 +1,15 @@
 <!DOCTYPE html>
-<html>
+<!-- Language attributes -->
+<html <?php language_attributes(); ?>>
 <head>
+    <!-- Generate charset -->
+    <meta charset="<?php bloginfo('charset'); ?>">
+    <!-- Responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <?php wp_head(); ?>
 </head>
-<body>
+<!-- Applies classes depending on page -->
+<body <?php body_class(); ?>>
 <header class="site-header">
       <div class="container">
         <h1 class="school-logo-text float-left">
